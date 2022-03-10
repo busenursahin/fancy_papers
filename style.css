@@ -1,0 +1,51 @@
+@import url("style/main.css");
+
+.appbar{
+    height: 40px;
+    padding: 7px 20px;
+    background-color: var(--notes-color);
+    color: white;
+    border-radius: 15px;
+    margin: 20px 0px 0px 0px;
+}
+
+.note {
+    position: relative;
+}
+
+.paper {
+    border: 1px solid var(--notes-color);
+    border-radius: 10px;
+    min-height: 75vh;
+    font-size: 20px;
+    line-height: 40px;
+    margin: 20px auto;
+    padding: 40px 40px;
+}
+
+.checkered {
+    background-image: 
+        repeating-linear-gradient( to bottom, transparent 0px 39px, #ccc 40px),
+        repeating-linear-gradient( to right, transparent 0px 49px, #ccc 50px);
+}
+
+.line {
+    background-image:
+        repeating-linear-gradient( to bottom, transparent 0px 39px, #ccc 40px);
+}
+
+.plain {
+    
+}
+
+
+.mobil-note {
+    font-size: 1em !important;
+}
+
+@media only screen and (max-width:600px) {
+
+    .mobil-note {
+        font-size: 1em !important;
+    }
+}
